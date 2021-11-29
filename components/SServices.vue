@@ -4,6 +4,7 @@
       class="c-service"
       :class="`enter-fade-up enter-delay-${index + 2}`"
       v-for="(service, index) in services"
+      :key="index"
     >
       <div class="c-service__icon">
         <img

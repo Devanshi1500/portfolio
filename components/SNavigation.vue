@@ -28,13 +28,13 @@
       >
         About
       </nuxt-link>
-      <nuxt-link
+      <!-- <nuxt-link
         to="/articles"
         class="c-navigation__item"
         active-class="c-navigation__item--active"
       >
         Articles
-      </nuxt-link>
+      </nuxt-link> -->
       <nuxt-link
         to="/contact"
         class="c-navigation__item"
@@ -59,11 +59,9 @@ export default defineComponent({
   },
 
   setup() {
-    const nlPath = computed(() => `/nl/`)
     const enPath = computed(() => `/`)
 
     return {
-      nlPath,
       enPath
     }
   }

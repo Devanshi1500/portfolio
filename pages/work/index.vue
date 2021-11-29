@@ -26,8 +26,6 @@
 import { defineComponent } from '@vue/composition-api'
 import SCases from '~/components/SCases.vue'
 import SClients from '~/components/SClients.vue'
-import SLinkList from '~/components/SLinkList.vue'
-import SLinkListItem from '~/components/SLinkListItem.vue'
 import SPageTitle from '~/components/SPageTitle.vue'
 import SSocial from '~/components/SSocial.vue'
 
@@ -37,8 +35,6 @@ export default defineComponent({
   components: {
     SCases,
     SClients,
-    SLinkList,
-    SLinkListItem,
     SSocial,
     SPageTitle
   },
@@ -67,7 +63,11 @@ export default defineComponent({
     ).json()
 
     return {
-      page: pages.data.filter((page: any) => page.slug === 'work')[0],
+      page: {
+        title: "Work",
+        introduction: "<p>To get an idea of my work, <strong>here are some public projects<\/strong> I worked on. Since I can't show everything here, I'm happy to discuss more of my work in person.<\/p>",
+        content: "<h3 class=\"center\">Some of the companies I worked with<\/h3>"
+      },
       cases: cases.data
         .filter((caseItem: any) => caseItem.status === 'published')
         .map((caseItem: any) => {

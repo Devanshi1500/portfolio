@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio website",
-  "author": "Simon Wuyts",
+  "description": "Portfolio website - abstracted from Simon Wuyts portfolio website",
+  "author": "Devanshi Shah",
   "private": true,
   "scripts": {
     "serve": "nuxt-ts",
@@ -36,7 +36,7 @@
     "nodemon": "^2.0.4",
     "nuxt-svg-loader": "^1.2.0",
     "prettier": "^1.16.4",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^10.1.1"
   },
   "volta": {
     "node": "14.15.5"

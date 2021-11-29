@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 import SPageTitle from '~/components/SPageTitle.vue'
 import SSocial from '~/components/SSocial.vue'
 
@@ -26,15 +26,26 @@ export default defineComponent({
     }
   },
 
-  async asyncData() {
-    const pages = await (
-      await fetch(
-        'https://portfolio.simonwuyts.eu/portfolio/items/pages?fields=*.*'
-      )
-    ).json()
-
+  data() {
     return {
-      page: pages.data.filter((page: any) => page.slug === 'contact')[0]
+      page: {
+        title: "Contact",
+        introduction: `
+        <p class=\"center\">Think we can make great things together?
+          <strong>
+            <br />
+            <a href=\"mailto:devanshi1500@gmail.com\">Let's get in touch!</a>
+          </strong>
+        </p>
+        `,
+        content: `
+        <p class=\"center\">
+          <strong>Devanshi Shah</strong>
+          <br />
+          <a href=\"mailto:devanshi1500@gmail.com\">devanshi1500@gmail.com&nbsp;</a>
+        </p>
+        `
+      }
     }
   }
 })
