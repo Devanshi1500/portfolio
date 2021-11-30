@@ -5,6 +5,7 @@
   "author": "Devanshi Shah",
   "private": true,
   "scripts": {
+    "dev": "nuxt",
     "serve": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
@@ -20,7 +21,6 @@
     "color": "^3.1.2",
     "cross-env": "^7.0.2",
     "date-fns": "^2.7.0",
-    "node-sass": "^4.13.0",
     "nuxt": "^2.13.2",
     "prismjs": "^1.21.0"
   },
@@ -33,10 +33,11 @@
     "eslint-plugin-prettier": "^3.0.1",
     "mkdirp-promise": "^5.0.1",
     "node-fetch": "^2.6.0",
+    "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "nuxt-svg-loader": "^1.2.0",
     "prettier": "^1.16.4",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.2.0"
   },
   "volta": {
     "node": "14.15.5"
