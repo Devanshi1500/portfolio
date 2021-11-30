@@ -11,6 +11,7 @@
 import { defineComponent } from '@vue/composition-api'
 import SPageTitle from '~/components/SPageTitle.vue'
 import SSocial from '~/components/SSocial.vue'
+import { constants } from '~/assets/content'
 
 export default defineComponent({
   name: 'Contact',
@@ -28,24 +29,7 @@ export default defineComponent({
 
   data() {
     return {
-      page: {
-        title: "Contact",
-        introduction: `
-        <p class=\"center\">Think we can make great things together?
-          <strong>
-            <br />
-            <a href=\"mailto:devanshi1500@gmail.com\">Let's get in touch!</a>
-          </strong>
-        </p>
-        `,
-        content: `
-        <p class=\"center\">
-          <strong>Devanshi Shah</strong>
-          <br />
-          <a href=\"mailto:devanshi1500@gmail.com\">devanshi1500@gmail.com&nbsp;</a>
-        </p>
-        `
-      }
+      page: constants.pages.filter(i => i.name=='contact')[0]
     }
   }
 })

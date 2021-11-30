@@ -1,15 +1,13 @@
 <template>
-  <h1 class="c-title enter-fade-up">
-    <!-- <div class="c-title__border" aria-hidden="true">
-      <span class="c-title__inner">
-        <slot />
-      </span>
-    </div> -->
+  <h1 class="c-hello enter-fade-up">
     <div class="c-title__text">
       <span>
         <slot />
       </span>
     </div>
+    <span class="c-hello__inner">
+        <slot />
+      </span>
   </h1>
 </template>
 
