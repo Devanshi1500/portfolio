@@ -6,8 +6,8 @@ export const constants = Object.freeze({
       introduction: "<p>Hi, I'm <strong>Devanshi Shah</strong>, a Computer Engineering Undergraduate, living in and in love with Mumbai.</p>",
       services: [
         {
-          title: 'Web app design',
-          description: `Whether it's designing a new product or refreshing the design of an existing application, I can make the project beautiful and easy to use.`,
+          title: 'UI/UX design',
+          description: `I believe in Design Thinking and crafting better user experiences. Making a new product or refreshing an existing design, I can make it beautiful and easy to use.`,
           image: {
             data: {
               url:
@@ -29,17 +29,17 @@ export const constants = Object.freeze({
     },
     {
       name: 'about',
-      title: "Wow! A Whole Page About Me!",
+      title: "About me.",
       introduction: "<p>Hi, I'm <strong>Devanshi Shah</strong>, a Computer Engineering Undergraduate at <a href=\"https://vjti.ac.in/\" target=\"_blank\" rel=\"noreferrer noopener\">VJTI</a>, living in and in love with Mumbai.</p>",
       content: `
-        <p>I am passionate about software development, good design and growth. I’ve always sought out opportunities and challenges that are meaningful to me. Pursuing my bachelor's degree, I’ve been exploring many things. Earlier this year, I worked as the frontend lead in a team for a freelance project to build 
-          <a href=\"https://fashion-o-phile.netlify.app/\" target=\"_blank\" rel=\"noreferrer noopener\">website</a> of a local business.
+        <p>I am passionate about software development, good design and growth. I’ve always sought out opportunities and challenges that are meaningful to me. Pursuing my bachelor's degree, I’ve been exploring many things.
+          
         </p>\n
-        <p>Later in June, I interned at
-          <a href=\"https://home.barclays/\" target=\"_blank\" rel=\"noreferrer noopener\">Barclays PLC</a>, a British multinational bank, where I realized how impactful every change that I made was. Later this year, I interned at 
+        <p>In 2021, I interned at
+          <a href=\"https://home.barclays/\" target=\"_blank\" rel=\"noreferrer noopener\">Barclays PLC</a>, a British multinational bank, where I realized how impactful every change that I made was. Later in 2021, I worked at 
           <a href=\"https://www.workindia.in/\" target=\"_blank\" rel=\"noreferrer noopener\">WorkIndia</a>, a growth-stage start-up, where I got the taste of ownership and action-based culture. Since then, I'm focusing on exploring new technologies one step at a time.
         </p>\n
-        <p>I wish to work on great products that people depend on, I wish to interact and collaborate with people across the globe and have the opportunity to learn the best of design and development practices.</p>\n
+        <p>I wish to work on great products that people depend on, I wish to interact and collaborate with people across the globe and have the opportunity to learn the best of design and development practices. I care about building impactful, accessible and inclusive tech for everyone.</p>\n
         <figure>
           <img src=\"https://res.cloudinary.com/dsgbvowu4/image/upload/q_100/v1638271968/personal/mumbai-solo-picture_tb0wpd.jpg\" width=\"2000\" height=\"800\" data-image=\"390\" />
         </figure>\n
@@ -51,7 +51,7 @@ export const constants = Object.freeze({
     },
     {
       name: 'contact',
-      title: "Let's Talk About You.",
+      title: "Let's talk about you.",
       introduction: `
       <p class=\"center\">Think we can make great things together?
         <strong>

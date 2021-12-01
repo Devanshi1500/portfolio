@@ -22,7 +22,7 @@
             class="c-social-links__icon"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
+            viewBox="0 0 22 20"
           >
             <path d="M0 5h3.578v11H0zM13.324 5.129c-.038-.012-.074-.025-.114-.036a2.32 2.32 0 00-.145-.028A3.207 3.207 0 0012.423 5c-2.086 0-3.409 1.517-3.845 2.103V5H5v11h3.578v-6s2.704-3.766 3.845-1v7H16V8.577a3.568 3.568 0 00-2.676-3.448z"/><circle cx="1.75" cy="1.75" r="1.75"/>
           </svg>
@@ -35,7 +35,7 @@
             class="c-social-links__icon"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
+            viewBox="0 0 150 80"
           >
             <path 
               d="M61.058,65.992l24.224-24.221l36.837,36.836H73.673h-25.23H0l36.836-36.836 L61.058,65.992L61.058,65.992z M1.401,0l59.656,59.654L120.714,0H1.401L1.401,0z M0,69.673l31.625-31.628L0,6.42V69.673L0,69.673z M122.88,72.698L88.227,38.045L122.88,3.393V72.698L122.88,72.698z"
@@ -80,6 +80,23 @@
             />
           </svg>
           <span class="c-social-links__label">Twitter</span>
+        </a>
+      </li>
+      <li class="c-social-links__item">
+        <a
+          href="https://drive.google.com/file/d/1FHZ04Gs9_QE31ISFghnzWeoMwkBzxxps/view?usp=sharing"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg
+            class="c-social-links__icon"
+            width="24"
+            height="24"
+            viewBox="0 0 768 1024"
+          >
+            <path d="M640 768H128V257.90599999999995L256 256V128H0v768h768V576H640V768zM384 128l128 128L320 448l128 128 192-192 128 128V128H384z"/>
+          </svg>
+          <span class="c-social-links__label">Resume</span>
         </a>
       </li>
     </ul>
