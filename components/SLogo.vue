@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/img/ds-logo.png" alt="" width="32" height="32">
+  <img src="~/static/favicon.png" alt="" width="32" height="32">
 </template>
 
 <script lang="ts">
