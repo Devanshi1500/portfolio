@@ -25,6 +25,113 @@ export const constants = Object.freeze({
             }
           }
         }
+      ],
+      skills: [
+        {
+          name: 'C++',
+          link: 'https://www.w3schools.com/cpp/',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg'
+        },
+        {
+          name: 'Python',
+          link: 'https://www.python.org',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg'
+        },
+        {
+          name: 'Javascript',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
+        },
+        {
+          name: 'Typescript',
+          link: 'https://www.typescriptlang.org/',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'
+        },
+        {
+          name: 'MySQL',
+          link: 'https://www.mysql.com/',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg '
+        },
+        {
+          name: 'postgresql',
+          link: 'https://www.postgresql.org ',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg '
+        },
+        {
+          name: 'SQLite',
+          link: 'https://www.sqlite.org/',
+          imgLink: 'https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg'
+        },
+        {
+          name: 'bootstrap',
+          link: 'https://getbootstrap.com',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg'
+        },
+        {
+          name: 'Tailwind CSS',
+          link: 'https://tailwindcss.com/',
+          imgLink: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg'
+        },
+        {
+          name: 'Vuejs',
+          link: 'https://vuejs.org/ ',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg '
+        },
+        {
+          name: 'Nuxt',
+          link: 'https://nuxtjs.org/ ',
+          imgLink: 'https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg '
+        },
+        {
+          name: 'Reactjs',
+          link: 'https://reactjs.org/ ',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg '
+        },
+        {
+          name: 'Angular',
+          link: 'https://angular.io/ ',
+          imgLink: 'https://www.vectorlogo.zone/logos/angular/angular-icon.svg '
+        },
+        {
+          name: 'Node',
+          link: 'https://nodejs.org ',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg '
+        },
+        {
+          name: 'Express',
+          link: 'https://expressjs.com ',
+          imgLink: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg '
+        },
+        {
+          name: 'Flask',
+          link: 'https://flask.palletsprojects.com/ ',
+          imgLink: 'https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg '
+        },
+        {
+          name: 'Django',
+          link: 'https://www.djangoproject.com/ ',
+          imgLink: 'https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg '
+        },
+        {
+          name: 'Postman',
+          link: 'https://postman.com ',
+          imgLink: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg '
+        },
+        {
+          name: 'Jenkins',
+          link: 'https://jenkins.io ',
+          imgLink: 'https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg '
+        },
+        {
+          name: 'Kubernetes',
+          link: 'https://kubernetes.io ',
+          imgLink: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg '
+        },
+        {
+          name: 'Git',
+          link: 'https://git-scm.com/ ',
+          imgLink: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg '
+        }
       ]
     },
     {
